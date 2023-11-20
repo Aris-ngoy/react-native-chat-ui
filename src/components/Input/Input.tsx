@@ -29,7 +29,7 @@ export interface InputTopLevelProps {
    * `TextInput` state. Defaults to `editing`. */
   sendButtonVisibilityMode?: 'always' | 'editing'
   textInputProps?: TextInputProps
-  rightItems ? :  React.ReactNode
+  rightItems?: React.ReactNode
 }
 
 export interface InputAdditionalProps {
@@ -49,7 +49,7 @@ export const Input = ({
   onSendPress,
   sendButtonVisibilityMode,
   textInputProps,
-  rightItems
+  rightItems,
 }: InputProps) => {
   const l10n = React.useContext(L10nContext)
   const theme = React.useContext(ThemeContext)
