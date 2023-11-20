@@ -1,7 +1,3 @@
-<p align="center">
-  ⚠️⚠️ Currently not maintained, please fork or look for alternatives ⚠️⚠️
-</p>
-
 <br>
 
 <p align="center">
@@ -10,7 +6,7 @@
   </a>
 </p>
 
-<h1 align="center">React Native Chat UI</h1>
+<h1 align="center">React Native Chat UI Fork</h1>
 
 <p align="center">
   Actively maintained, community-driven chat UI implementation with an optional <a href="https://github.com/flyerhq/react-native-firebase-chat-core">Firebase BaaS</a>.
